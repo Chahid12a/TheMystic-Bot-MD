@@ -21,12 +21,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `Mohammed chhaid
+    const str = `Bot Whatsapp
 
  ▢ *السلام عليكم,*${taguser}
- ___________________________
- my Instagram: https://instagram.com/chahid_mohammed1
-
+___________________________
+ • Instagram: https://instagram.com/chahid_mohammed1
+ • Facebook : https://www.facebook.com/chahid01s
+ _______________________________
 
 *الاحصائيات*
  ▢ *Nivel:* ${level}
@@ -38,7 +39,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
- _*< *حول الروبوت* />*_
+ *حول البوت*
 
   ▢ _${usedPrefix}terminosycondiciones_
   ▢ _${usedPrefix}grupos_

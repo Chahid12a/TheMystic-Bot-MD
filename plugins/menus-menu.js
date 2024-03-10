@@ -23,12 +23,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `Mohammed chhaid
 
- ▢ *السلام عليكم,* 
- global.wait = '\ninstagram.com/chahid_mohammed1';
- ${taguser}
+ ▢ *السلام عليكم,*${taguser}
+ ___________________________
+ my Instagram: https://instagram.com/chahid_mohammed1
 
- _*< *إحصائياتك* />*_
 
+*الاحصائيات*
  ▢ *Nivel:* ${level}
  ▢ *Experiencia:* ${exp}
  ▢ *Rango:* ${role}

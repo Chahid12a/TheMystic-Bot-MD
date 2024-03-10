@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  ▢ *السلام عليكم,* ${taguser}
 
- _*< TUS ESTADÍSTICAS />*_
+ _*< *إحصائياتك* />*_
 
  ▢ *Nivel:* ${level}
  ▢ *Experiencia:* ${exp}
@@ -36,14 +36,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
-  _*< LISTA DE MENUS />*_
-  
-  ▢ _${usedPrefix}menuaudios_
-  ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_ (🔞)
-
- 
- _*< SOBRE EL BOT />*_
+ _*< *حول الروبوت* />*_
 
   ▢ _${usedPrefix}terminosycondiciones_
   ▢ _${usedPrefix}grupos_
@@ -492,7 +485,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
+    conn.reply(m.chat, '*[ ℹ️ ]  menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
   }
 };
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;

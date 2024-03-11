@@ -55,30 +55,14 @@ ___________________________
   ▢ _bot_ (sin prefijo)
 
 
- _*< SUB-BOTS />*_
+ *الانتساب إلى البوت*
 
   ▢ _${usedPrefix}serbot --code_
   ▢ _${usedPrefix}serbot_
   ▢ _${usedPrefix}deletebot_
   ▢ _${usedPrefix}token_
   ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_
-  ▢
-  ▢ _${usedPrefix}enable restrict_
-  ▢ _${usedPrefix}disable restrict_
-  ▢ _${usedPrefix}enable autoread_
-  ▢ _${usedPrefix}disable autoread_
-  ▢ _${usedPrefix}enable antispam_
-  ▢ _${usedPrefix}disable antispam_
-  ▢ _${usedPrefix}enable anticall_
-  ▢ _${usedPrefix}disable anticall_
-  ▢ _${usedPrefix}enable modoia_
-  ▢ _${usedPrefix}disable modoia_
-  ▢ _${usedPrefix}enable audios_bot_
-  ▢ _${usedPrefix}disable audios_bot_
-  ▢ _${usedPrefix}enable antiprivado_
-  ▢ _${usedPrefix}disable antiprivado_
-  
+  ▢ _${usedPrefix}bots_(
 
  _*< JUEGOS />*_
 
@@ -266,30 +250,19 @@ ___________________________
   ▢ _${usedPrefix}historiaromantica_
 
 
- _*< ALEATORIO />*_
-
-  ▢ _${usedPrefix}kpop *<blackpink/exo/bts>*_
+*الاوامر مرتبطة بالصور*
+ 
   ▢ _${usedPrefix}cristianoronaldo_
   ▢ _${usedPrefix}messi_
   ▢ _${usedPrefix}cat_
   ▢ _${usedPrefix}dog_
   ▢ _${usedPrefix}meme_
-  ▢ _${usedPrefix}itzy_
-  ▢ _${usedPrefix}blackpink_
-  ▢ _${usedPrefix}navidad_
   ▢ _${usedPrefix}wpmontaña_
   ▢ _${usedPrefix}pubg_
   ▢ _${usedPrefix}wpgaming_
-  ▢ _${usedPrefix}wpaesthetic_
-  ▢ _${usedPrefix}wpaesthetic2_
   ▢ _${usedPrefix}wprandom_
-  ▢ _${usedPrefix}wallhp_
-  ▢ _${usedPrefix}wpvehiculo_
-  ▢ _${usedPrefix}wpmoto_
-  ▢ _${usedPrefix}coffee_
   ▢ _${usedPrefix}pentol_
   ▢ _${usedPrefix}caricatura_
-  ▢ _${usedPrefix}ciberespacio_
   ▢ _${usedPrefix}technology_
   ▢ _${usedPrefix}doraemon_
   ▢ _${usedPrefix}hacker_

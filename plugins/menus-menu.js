@@ -234,7 +234,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}stickermarker *<efecto> <img>*_
   ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
 
-
+*إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة أرسل رسالة او تريد ان تحدف امرا ارسل رساله الى هذا الرقم*
++212679556171
  `.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})

@@ -6,51 +6,31 @@ handler.command = new RegExp;
 export default handler;
 
 global.terminos = `
-*=> El desconocimiento de lo que aqui se menciona no exime al propietario del Bot, Sub Bot o usuario del bot de la sanciones que se puedan derivar❗*
+*=> عدم المعرفة بما يُذكر هنا لا يُعفي مالك البوت، أو البوت الفرعي، أو مستخدم البوت من العقوبات التي يمكن أن تنتج❗*
 
-*⚠️ Términos de privacidad*
-_1.- La información que reciba el Bot NO se comparte con ningún tercero ni con nadie_
-_2.- Las imágenes/videos/sticker/audios/etc no son compartidos con nadie_
-_3.- Su numero de teléfono no es compartido con absolutamente nadie_
-_4.- Datos de tarjetas, ubicaciones, direcciones, etc son eliminados inmediatamente y no se comparten con absolutamente nadie_
-_5.- Todas las conversaciones son eliminadas cada determinado tiempo y no se hace backup (no se guarda) de ningún tipo de información/conversación_
+*⚠️ شروط الخصوصية*
+_1.- لا تتم مشاركة المعلومات التي يتلقاها الروبوت مع أي طرف ثالث أو أي شخص_
+_2.- لا تتم مشاركة الصور/مقاطع الفيديو/الملصقات/التسجيلات الصوتية/إلخ مع أي شخص_
+_3.- لا تتم مشاركة رقم هاتفك مع أي شخص._
+_4.- يتم حذف بيانات البطاقة والمواقع والعناوين وما إلى ذلك على الفور ولا تتم مشاركتها مع أي شخص._
+_5.- يتم حذف جميع المحادثات من وقت لآخر ولا يتم عمل نسخة احتياطية (لا يتم حفظها) لأي نوع من المعلومات/المحادثات._
 
-*⚠️ Términos de uso*
-_1.- No nos hacemos responsables de un mal uso que se le pueda dar al Bot_
-_2.- No nos hacemos responsables de la ignorancia y/o desconocimiento del tema_
-_3.- El Bot no esta activo las 24 horas al menos de que el propietario decida lo contrario_
-_4.- La "empresa" no se hace responsable del uso de un Sub Bot o Bot no oficial, ya que son personas (terceros) y no tenemos control sobre ell@s_
-_5.- No nos hacemos responsables de los números que se puedan ir a soporte por el uso del Bot, es aconsejable siempre usar números virtuales para usos de Bots_
-_6.- Los audios/notas de voz/imágenes/videos o cualquier otro archivo multimedia que sean de propiedad de The Mystic - Bot son únicamente y exclusivamente de este Bot, si se detecta a otro Bot con alguno o algunos de los archivos multimedia antes mencionado se tomarán cartas en el asunto._
+*⚠️ شروط الاستخدام*
+ _1.- نحن لسنا مسؤولين عن أي سوء استخدام قد يعطى للبوت_
+ _2.- نحن لسنا مسؤولين عن الجهل و/أو عدم المعرفة بالموضوع_
+ _3.- الروبوت غير نشط 24 ساعة في اليوم ما لم يقرر المالك خلاف ذلك_
+ _4.- "الشركة" ليست مسؤولة عن استخدام الروبوت الفرعي أو الروبوت غير الرسمي، حيث أنهم أشخاص (أطراف ثالثة) وليس لدينا أي سيطرة عليهم_
+ _5.- نحن لسنا مسؤولين عن الأرقام التي قد يتم إرسالها لدعم استخدام البوت، ويُنصح دائمًا باستخدام الأرقام الافتراضية لاستخدامات البوت_
+ _6.- التسجيلات الصوتية/الملاحظات الصوتية/الصور/مقاطع الفيديو أو أي ملفات وسائط متعددة أخرى مملوكة لـ chahid bot هي ملك لهذا الروبوت فقط وحصريًا، إذا تم اكتشاف روبوت آخر مع واحد أو بعض ملفات الوسائط المتعددة المذكورة سابقًا، سيتم اتخاذ الإجراءات اللازمة في هذا الشأن.
+*➤ رسالة رقم البوت؟*
+_- إذا وصلتك في أي وقت رسالة من رقم البوت وهي ليست أمر، فمن المحتمل أن تكون من صاحب البوت أو صاحب الرقم، فهذا شخص حقيقي لذا نطلب منك عدم التقليل من احترامه._
 
-*➤ Mensaje del numero del Bot?*
-_- Si en algún momento recibe un mensaje del numero del Bot y no es un comando posiblemente sea de el propietario del Bot o el propietario del numero, este es un persona real por lo que se le pide que no le falte el respeto_
 
-*➤ Base usada para este Bot:*
-*- https://github.com/BochilGaming/games-wabot-md*
+*⁉️ هل لديك أي شكوك؟*
+_- إذا كان لا يزال لديك أي أسئلة أو شكاوى حول ما هو مذكور هنا أو فيما يتعلق بالبوت، فاتصل بي على رقمي الشخصي وسأقوم بالرد عليه في أقرب وقت ممكن لتزويدك بالحل و/أو تحمل مسؤولية أي شكاوى._ 
 
-*➤ Agradecimientos a:*
-*- Unx21*
-*- Narutomo*
-*- BochilGaming*
-*- Unxteam*
-*- Bochilteam*
-*- ConfuMods*
-*- Theh2so4*
-*- Hiro*
-*- The.sad.boy01*
-*- botstylee*
-*- Amel*
-*- FatihArridho*
-*- Adiwajshing*
-*- Darlyn*
-*- Etc.*
+> wa.me/212679556171
+> chahid 
+> Gmail: simochahid100@gmail.com
 
-*⁉️ Te quedaron dudas?*
-_- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al Bot, contáctame a mi numero personal al cual estaré respondiendo lo antes posible para brindarte una solución y/o hacerme responsable de alguna reclamación_ 
-
-> wa.me/5219992095479
-> Bruno Sobrino 
-> Correo electronico: theshadowbrokers133@gmailcom
-
-*∆ THE MYSTIC - BOT - MD ∆*`;
+*∆ mohammed chahid  ∆*`;

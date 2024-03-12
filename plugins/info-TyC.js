@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.terminos);
 };
-handler.customPrefix = /about/ |/i;
+handler.customPrefix = /about|Términos y condiciones/i;
 handler.command = new RegExp;
 export default handler;
 

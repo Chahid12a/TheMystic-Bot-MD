@@ -87,6 +87,8 @@ ___________________________
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
 
+*الاسلام*
+▢ _${usedPrefix}adkar
 
 
  *الانتساب إلى البوت*

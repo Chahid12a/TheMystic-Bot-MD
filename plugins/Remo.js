@@ -21,7 +21,7 @@ async function handler(m, { conn, usedPrefix, command }) {
     }
 }
 
-handler.help = ['remini2'];
+handler.help = ['reminihd'];
 handler.tags = ['image-edit'];
 handler.command = ['reminihd'];
 

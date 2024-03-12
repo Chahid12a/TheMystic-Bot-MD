@@ -152,7 +152,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}randomprofile_
 
  *الادوات*
- 
+  ▢ _${usedPrefix}reminihd
   ▢ _${usedPrefix}inspect *<wagc_url>*_
   ▢ _${usedPrefix}chatgpt *<txt>*_
   ▢ _${usedPrefix}delchatgpt

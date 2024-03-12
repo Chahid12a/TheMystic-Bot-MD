@@ -87,10 +87,6 @@ ___________________________
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
 
-*الاسلام*
-▢ _${usedPrefix}adkar
-
-
  *الانتساب إلى البوت*
 
   ▢ _${usedPrefix}serbot --code_
@@ -138,39 +134,7 @@ ___________________________
   ▢ _${usedPrefix}suerte
   ▢ _${usedPrefix}wordfind_
 
-
- _*< ACT./DESACT. FUNC. />*_
-
-  ▢ _${usedPrefix}enable *welcome*_
-  ▢ _${usedPrefix}disable *welcome*_
-  ▢ _${usedPrefix}enable *modohorny*_
-  ▢ _${usedPrefix}disable *modohorny*_
-  ▢ _${usedPrefix}enable *antilink*_
-  ▢ _${usedPrefix}disable *antilink*_
-  ▢ _${usedPrefix}enable *antilink2*_
-  ▢ _${usedPrefix}disable *antilink2*_
-  ▢ _${usedPrefix}enable *detect*_
-  ▢ _${usedPrefix}disable *detect*_
-  ▢ _${usedPrefix}enable *audios*_
-  ▢ _${usedPrefix}disable *audios*_
-  ▢ _${usedPrefix}enable *autosticker*_
-  ▢ _${usedPrefix}disable *autosticker*_
-  ▢ _${usedPrefix}enable *antiviewonce*_
-  ▢ _${usedPrefix}disable *antiviewonce*_
-  ▢ _${usedPrefix}enable *antitoxic*_
-  ▢ _${usedPrefix}disable *antitoxic*_
-  ▢ _${usedPrefix}enable *antitraba*_
-  ▢ _${usedPrefix}disable *antitraba*_
-  ▢ _${usedPrefix}enable *antiarabes*_
-  ▢ _${usedPrefix}disable *antiarabes*_
-  ▢ _${usedPrefix}enable *modoadmin*_
-  ▢ _${usedPrefix}disable *modoadmin*_
-  ▢ _${usedPrefix}enable *antidelete*_
-  ▢ _${usedPrefix}disable *antidelete*_
-
-
-
- _*< GRUPOS />*_
+ *الاوامر خاصه بالمجموعة*
 
   ▢ _${usedPrefix}add *num>*_
   ▢ _${usedPrefix}kick *<@tag>*_
@@ -275,15 +239,7 @@ ___________________________
   ▢ _${usedPrefix}smooth_
   ▢ _${usedPrefix}tupai_
 
-
- _*< CHAT ANÓNIMO />*_
-
-  ▢ _${usedPrefix}start_
-  ▢ _${usedPrefix}next_
-  ▢ _${usedPrefix}leave_
-
-
- _*< HERRAMIENTAS />*_
+*الأدوات*
  
   ▢ _${usedPrefix}inspect *<wagc_url>*_
   ▢ _${usedPrefix}chatgpt *<txt>*_
@@ -363,9 +319,7 @@ ___________________________
   ▢ _${usedPrefix}ttp5 *<txt>*_
   ▢ _${usedPrefix}pat *<@tag>*_
   ▢ _${usedPrefix}slap *<@tag>*_
-  ▢ _${usedPrefix}kiss *<@tag>*_
   ▢ _${usedPrefix}dado_
-  ▢ _${usedPrefix}wm *<packname> <autor>*_
   ▢ _${usedPrefix}stickermarker *<efecto> <img>*_
   ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
 

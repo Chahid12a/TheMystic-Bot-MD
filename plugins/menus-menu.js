@@ -71,7 +71,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  *الدكاء الاصطناعي*
  
- ▢ _${usedPrefix}ai
+ ▢ _${usedPrefix}ai_
 
  _*< BUSCADORES />*_
 
@@ -224,7 +224,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   ▢ _${usedPrefix}about_
   ▢ _${usedPrefix}speedtest_
-  ▢ _${usedPrefix}report _الابلاغ عن مبزة لاتستغل او اي شيء_
+  ▢ _${usedPrefix}report_ _.الابلاغ عن مبزة لاتستغل او اي شيء_
   
 *إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة أرسل رسالة او تريد ان تحدف امرا ارسل رساله الى هذا الرقم*
 +212679556171

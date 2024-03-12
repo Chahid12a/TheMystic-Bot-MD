@@ -1,12 +1,16 @@
-const handler = async (m, {conn, text, usedPrefix, command}) => {
-  if (!text) throw `*[❗معلومة❗] تحقيق في تقرير*\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} el comando ${usedPrefix}play no manda nada*`;
-  if (text.length < 10) throw `*[❗إنتباه!❗] !المرجو كتابة 10 كلمات على الاقل*`;
-  if (text.length > 1000) throw `*[❗إنتباه!❗] يمكنك كتاببة اقل من 1000 كلمة!*`;
-  const teks = `*❒═════[التقرير]═════❒*\n*┬*\n*├❧ 𝙽𝚄𝙼𝙴𝚁𝙾:* wa.me/${m.sender.split`@`[0]}\n*┴*\n*┬*\n*├❧ رسالة* ${text}\n*┴*`;
-  conn.reply('0679556171@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
-  m.reply(`*[ ✔️ ] سيتم معالجة الخطأ الدي في البوت قريبا.. بعد مراسلة صاحب البوت*`);
-};
-handler.help = ['reporte', 'request'].map((v) => v + ' <teks>');
-handler.tags = ['info'];
-handler.command = /^(report|request|reporte|bugs|bug|report-owner|reportes)$/i;
-export default handler;
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `اذا كنت تواجه مشكلة ما في البوت أو أن أحد الأوامر لا تعمل معك فاكتب  الامر متبوع بالمشكلة التي تعاني منها في البوت وسيتم تلبة طلبكم من طرف صاحب البوت سوف اعطيك مثال اكتب هكذا \n\n*.report* أرجوك ميزة تحميل الفيديوات لا تعمل معي هل من حل ? `
+  if (text.length < 10) throw `يجب ان تكون الرسالة فيها اكثر من اربع كلمات `
+  if (text.length > 1000) throw `الحد الادنى هو 1000 حرف اختر ما تريد قوله !`
+  let teks = `*${command.toUpperCase()}!*\n\nfrom : *@${m.sender.split`@`[0]}*\n\nmessage : ${text}\n`
+  conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+      contextInfo: {
+          mentionedJid: [m.sender]
+      }
+  })
+  m.reply(`_يتم إرسال الرسالة إلى صاحب البوت، ...  بمجرد ان يقرأ صاحب البوت هذه الرسالة سيتم الرد عليكم لا تقلقوا ._\n*انا بوبيزة رفيقتك♥*`)
+}
+handler.help = ['report']
+handler.tags = ['infobot']
+handler.command = /^(report)$/i
+export default handler

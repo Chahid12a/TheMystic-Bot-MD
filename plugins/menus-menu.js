@@ -69,6 +69,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ _${usedPrefix}wallpaper *<txt>*_ 
  ▢ _${usedPrefix}dapk2 *<url>*_
 
+ *الدكاء الاصطناعي*
+ 
+ ▢ _${usedPrefix}ai
 
  _*< BUSCADORES />*_
 

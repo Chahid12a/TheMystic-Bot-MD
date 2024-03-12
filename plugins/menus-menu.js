@@ -161,24 +161,6 @@ ___________________________
   ▢ _${usedPrefix}planeta_
   ▢ _${usedPrefix}randomprofile_
 
-
- _*< EFECTOS P. AUDIOS />*_
-
-تغيير الصوت
-
-  ▢ _${usedPrefix}bass_
-  ▢ _${usedPrefix}blown_
-  ▢ _${usedPrefix}deep_
-  ▢ _${usedPrefix}earrape_
-  ▢ _${usedPrefix}fast_
-  ▢ _${usedPrefix}fat_
-  ▢ _${usedPrefix}nightcore_
-  ▢ _${usedPrefix}reverse_
-  ▢ _${usedPrefix}robot_
-  ▢ _${usedPrefix}slow_
-  ▢ _${usedPrefix}smooth_
-  ▢ _${usedPrefix}tupai_
-
 *الأدوات*
  
   ▢ _${usedPrefix}inspect *<wagc_url>*_

@@ -36,18 +36,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
-
-*الانتساب إلى البوت*
-
-  ▢ _${usedPrefix}serbot --code_
-  ▢ _${usedPrefix}serbot_
-  ▢ _${usedPrefix}deletebot_
-  ▢ _${usedPrefix}token_
-  ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_
-
-
-
 *الاوامر التحميل*
 
  ▢ _${usedPrefix}play *<txt>*_
@@ -234,6 +222,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}stickermarker *<efecto> <img>*_
   ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
 
+*الانتساب إلى البوت*
+
+  ▢ _${usedPrefix}serbot --code_
+  ▢ _${usedPrefix}serbot_
+  ▢ _${usedPrefix}deletebot_
+  ▢ _${usedPrefix}token_
+  ▢ _${usedPrefix}stop_
+  ▢ _${usedPrefix}bots_
+  
 *إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة أرسل رسالة او تريد ان تحدف امرا ارسل رساله الى هذا الرقم*
 +212679556171
  `.trim();

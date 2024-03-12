@@ -128,20 +128,6 @@ ___________________________
   ▢ _admins *<txt>*_ (sin prefijo)
 
 
- _*< CONVERTIDORES />*_
-
-  ▢ _${usedPrefix}toanime *<img>*_
-  ▢ _${usedPrefix}togifaud *<video>*_
-  ▢ _${usedPrefix}toimg *<sticker>*_
-  ▢ _${usedPrefix}tomp3 *<video>*_
-  ▢ _${usedPrefix}tomp3 *<nota de voz>*_
-  ▢ _${usedPrefix}toptt *<video / audio>*_
-  ▢ _${usedPrefix}tovideo *<sticker>*_
-  ▢ _${usedPrefix}tourl *<video / img / audio>*_
-  ▢ _${usedPrefix}tts *<idioma> <txt>*_
-  ▢ _${usedPrefix}tts *<efecto> <txt>*_
-
-
  _*< EFECTOS & LOGOS />*_
 
   ▢ _${usedPrefix}logos *<efecto> <txt>*_
@@ -156,18 +142,10 @@ ___________________________
   ▢ _${usedPrefix}blur_
 
 
- _*< FRASES & TEXTOS />*_
-
-  ▢ _${usedPrefix}piropo_
-  ▢ _${usedPrefix}consejo_
-  ▢ _${usedPrefix}fraseromantica_
-  ▢ _${usedPrefix}historiaromantica_
-
-
 *الاوامر مرتبطة بالصور*
  
   ▢ _${usedPrefix}cristianoronaldo_
-  ▢ _${usedPrefix}messi_
+  ▢ _${usedPrfix}messi_
   ▢ _${usedPrefix}cat_
   ▢ _${usedPrefix}dog_
   ▢ _${usedPrefix}meme_
@@ -186,7 +164,7 @@ ___________________________
 
  _*< EFECTOS P. AUDIOS />*_
 
-*- Responde a un audio o nota de voz.*
+تغيير الصوت
 
   ▢ _${usedPrefix}bass_
   ▢ _${usedPrefix}blown_
@@ -232,30 +210,6 @@ ___________________________
   ▢ _${usedPrefix}igstalk *<usr>*_
   ▢ _${usedPrefix}tiktokstalk *<usr>*_
   ▢ _${usedPrefix}img *<txt>*_
-
-
- _*< ECONOMÍA />*_
-
-  ▢ _${usedPrefix}adventure_
-  ▢ _${usedPrefix}cazar_
-  ▢ _${usedPrefix}cofre_
-  ▢ _${usedPrefix}balance_
-  ▢ _${usedPrefix}claim_
-  ▢ _${usedPrefix}heal_
-  ▢ _${usedPrefix}lb_
-  ▢ _${usedPrefix}levelup_
-  ▢ _${usedPrefix}myns_
-  ▢ _${usedPrefix}perfil_
-  ▢ _${usedPrefix}work_
-  ▢ _${usedPrefix}minar_
-  ▢ _${usedPrefix}minar2_
-  ▢ _${usedPrefix}buy_
-  ▢ _${usedPrefix}buyall_
-  ▢ _${usedPrefix}verificar_
-  ▢ _${usedPrefix}robar *<cant> <@tag>*_
-  ▢ _${usedPrefix}crime
-  ▢ _${usedPrefix}transfer *<tipo> <cant> <@tag>*_
-  ▢ _${usedPrefix}unreg *<sn>*_
 
 
  _*< STICKERS />*_

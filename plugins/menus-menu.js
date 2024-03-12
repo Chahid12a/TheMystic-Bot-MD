@@ -117,20 +117,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _admins *<txt>*_ (sin prefijo)
 
 
- _*< CONVERTIDORES />*_
-
-  ▢ _${usedPrefix}toanime *<img>*_
-  ▢ _${usedPrefix}togifaud *<video>*_
-  ▢ _${usedPrefix}toimg *<sticker>*_
-  ▢ _${usedPrefix}tomp3 *<video>*_
-  ▢ _${usedPrefix}tomp3 *<nota de voz>*_
-  ▢ _${usedPrefix}toptt *<video / audio>*_
-  ▢ _${usedPrefix}tovideo *<sticker>*_
-  ▢ _${usedPrefix}tourl *<video / img / audio>*_
-  ▢ _${usedPrefix}tts *<idioma> <txt>*_
-  ▢ _${usedPrefix}tts *<efecto> <txt>*_
-
-
  _*< EFECTOS & LOGOS />*_
 
   ▢ _${usedPrefix}logos *<efecto> <txt>*_
@@ -230,6 +216,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}token_
   ▢ _${usedPrefix}stop_
   ▢ _${usedPrefix}bots_
+  
+ *حول البوت*
+
+  ▢ _${usedPrefix}about_
+  ▢ _${usedPrefix}speedtest_
   
 *إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة أرسل رسالة او تريد ان تحدف امرا ارسل رساله الى هذا الرقم*
 +212679556171

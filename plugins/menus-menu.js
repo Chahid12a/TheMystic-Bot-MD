@@ -96,44 +96,6 @@ ___________________________
   ▢ _${usedPrefix}stop_
   ▢ _${usedPrefix}bots_(
 
- _*< JUEGOS />*_
-
-  ▢ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-  ▢ _${usedPrefix}fake *<txt1> <@tag> <txt2>*_
-  ▢ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-  ▢ _${usedPrefix}prostituto *<nombre / @tag>*_
-  ▢ _${usedPrefix}prostituta *<nombre / @tag>*_
-  ▢ _${usedPrefix}gay2 *<nombre / @tag>*_
-  ▢ _${usedPrefix}lesbiana *<nombre / @tag>*_
-  ▢ _${usedPrefix}pajero *<nombre / @tag>*_
-  ▢ _${usedPrefix}pajera *<nombre / @tag>*_
-  ▢ _${usedPrefix}puto *<nombre / @tag>*_
-  ▢ _${usedPrefix}puta *<nombre / @tag>*_
-  ▢ _${usedPrefix}manco *<nombre / @tag>*_
-  ▢ _${usedPrefix}manca *<nombre / @tag>*_
-  ▢ _${usedPrefix}rata *<nombre / @tag>*_
-  ▢ _${usedPrefix}love *<nombre / @tag>*_
-  ▢ _${usedPrefix}doxear *<nombre / @tag>*_
-  ▢ _${usedPrefix}pregunta *<txt>*_
-  ▢ _${usedPrefix}suitpvp *<@tag>*_
-  ▢ _${usedPrefix}slot *<apuesta>*_
-  ▢ _${usedPrefix}ttt *<nombre sala>*_
-  ▢ _${usedPrefix}delttt_
-  ▢ _${usedPrefix}acertijo_
-  ▢ _${usedPrefix}simi *<txt>*_
-  ▢ _${usedPrefix}top *<txt>*_
-  ▢ _${usedPrefix}topgays_
-  ▢ _${usedPrefix}topotakus_
-  ▢ _${usedPrefix}formarpareja_
-  ▢ _${usedPrefix}verdad_
-  ▢ _${usedPrefix}reto_
-  ▢ _${usedPrefix}cancion_
-  ▢ _${usedPrefix}pista_
-  ▢ _${usedPrefix}akinator_
-  ▢ _${usedPrefix}ruleta
-  ▢ _${usedPrefix}suerte
-  ▢ _${usedPrefix}wordfind_
-
  *الاوامر خاصه بالمجموعة*
 
   ▢ _${usedPrefix}add *num>*_

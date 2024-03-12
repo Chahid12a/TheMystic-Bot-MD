@@ -94,7 +94,7 @@ ___________________________
   ▢ _${usedPrefix}deletebot_
   ▢ _${usedPrefix}token_
   ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_(
+  ▢ _${usedPrefix}bots_
 
  *الاوامر خاصه بالمجموعة*
 

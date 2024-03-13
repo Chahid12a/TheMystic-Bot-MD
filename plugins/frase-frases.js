@@ -63,77 +63,77 @@ async function cerpen(category) {
 }
 
 global.frasesromanticas = [
-  'Eres la luz que ilumina mi vida en la oscuridad.',
-  'Contigo, cada día es una nueva aventura llena de amor.',
-  'Tus ojos son el reflejo del cielo en el que quiero perderme.',
-  'Cada latido de mi corazón lleva tu nombre.',
-  'En tus brazos encontré el hogar que siempre busqué.',
-  'Eres el sueño que nunca quiero despertar.',
-  'El amor verdadero es estar juntos en las buenas y en las malas.',
-  'No existen distancias cuando dos corazones están unidos.',
-  'Tus besos son la melodía que acelera mi corazón.',
-  'Amar es ver en ti lo que nadie más puede ver.',
-  'En cada latido, te llevo conmigo a todas partes.',
-  'El amor que siento por ti es mi fuerza y mi inspiración.',
-  'Tus palabras dulces son mi alimento emocional diario.',
-  'Eres el regalo más preciado que la vida me ha dado.',
-  'El tiempo se detiene cuando estoy junto a ti.',
-  'En tu sonrisa encuentro la felicidad que buscaba.',
-  'Cada día a tu lado es una historia de amor sin fin.',
-  'Nuestro amor es como un cuento de hadas hecho realidad.',
-  'Tus abrazos son mi refugio en este mundo caótico.',
-  'Eres la razón por la que creo en el destino.',
-  'Amar es descubrir cada día algo nuevo que admiro en ti.',
-  'Tu amor es el lienzo en blanco donde pinto mi felicidad.',
-  'Contigo, el futuro es un camino lleno de promesas y sueños.',
-  'Eres el faro que guía mi corazón en la oscuridad.',
-  'La magia del amor se encuentra en cada gesto que compartimos.',
-  'Nuestro amor es un baile eterno de pasión y ternura.',
-  'En tus brazos, el mundo entero desaparece y solo existimos tú y yo.',
-  'El amor es el idioma en el que nuestros corazones conversan.',
-  'Eres el pedacito que me faltaba para completar mi alma.',
-  'Amar es encontrar en ti todo lo que nunca supe que necesitaba.',
-];
+   "أنت النور الذي ينير حياتي في الظلام."
+   "معك، كل يوم هو مغامرة جديدة مليئة بالحب."
+   "عيناك هي انعكاس السماء التي أريد أن أضيع فيها."
+   "كل نبضة في قلبي تحمل إسمك."
+   "بين ذراعيك وجدت المنزل الذي كنت أبحث عنه دائمًا."
+   "أنت الحلم الذي لا أريد أن أستيقظ منه أبدًا."
+   'الحب الحقيقي هو أن نكون معًا في السراء والضراء.',
+   "لا توجد مسافات عندما يكون القلبان متحدين."
+   "قبلاتك هي اللحن الذي يجعل قلبي يتسارع."
+   "الحب هو أن ترى في نفسك ما لا يستطيع أحد أن يراه."
+   "في كل نبضة قلب، آخذك معي في كل مكان."
+   "الحب الذي أشعر به تجاهك هو قوتي وملهمتي."
+   'كلماتك العذبة هي غذاءي العاطفي اليومي.',
+   "أنت أغلى هدية قدمتها لي الحياة."
+   "الوقت يتوقف عندما أكون بجانبك."
+   "في ابتسامتك أجد السعادة التي كنت أبحث عنها."
+   "كل يوم بجانبك هو قصة حب لا تنتهي."
+   "حبنا مثل حكاية خرافية تتحقق."
+   "أحضانك هي ملجأي في هذا العالم الفوضوي."
+   "أنت سبب إيماني بالقدر."
+   "الحب هو اكتشاف شيء جديد كل يوم وأنا معجب به فيك."
+   "حبك هو اللوحة البيضاء التي أرسم فيها سعادتي."
+   "معك المستقبل طريق مليء بالوعود والأحلام."
+   "أنت المنارة التي تهدي قلبي في الظلام."
+   "سحر الحب موجود في كل لفتة نشاركها."
+   "حبنا هو رقصة أبدية من العاطفة والحنان."
+   "بين ذراعيك يختفي العالم كله ولا يوجد إلا أنا وأنت."
+   "الحب هو اللغة التي تتحدث بها قلوبنا."
+   "أنت القطعة الصغيرة التي كنت أفتقدها لإكمال روحي."
+   "الحب هو أن أجد فيك كل ما لم أكن أعرف أنني بحاجة إليه."
+ ];
 
 global.consejos = [
-  'Acepta que los cambios son parte natural de la vida, y aprende a adaptarte a ellos.',
-  'Nunca dejes de aprender; el conocimiento es una herramienta poderosa.',
-  'Cuida de tu salud física y mental, son fundamentales para una vida plena.',
-  'Disfruta de las pequeñas cosas, pues son ellas las que dan sentido a la vida.',
-  'Aprende a perdonar, tanto a los demás como a ti mismo, para liberar tu corazón.',
-  'Valora el tiempo que pasas con tus seres queridos, es el regalo más valioso que puedes dar y recibir.',
-  'Sé amable y compasivo con los demás, cada acto de bondad puede marcar la diferencia en sus vidas.',
-  'Aprende a decir \'no\' cuando sea necesario, y establece límites saludables.',
-  'Encuentra tiempo para hacer lo que te apasiona, pues eso nutre tu alma y te hace sentir vivo.',
-  'No te compares con los demás, cada persona tiene su propio camino y ritmo en la vida.',
-  'Escucha a tu pareja con empatía y comprensión, la comunicación es la base de una relación sólida.',
-  'No tengas miedo de expresar tus sentimientos, la honestidad es esencial en el amor.',
-  'Aprende a ceder y a comprometerte, el amor requiere de sacrificio y esfuerzo mutuo.',
-  'Sorprende a tu pareja de vez en cuando, mantén viva la chispa del romance.',
-  'Respeta la individualidad de tu pareja y permítele crecer como persona.',
-  'El amor propio es igual de importante que amar a alguien más; cuídate y valórate.',
-  'Recuerda que una relación sana se basa en la confianza mutua y el respeto.',
-  'Elige a alguien que te complemente y te haga ser una mejor versión de ti mismo.',
-  'El amor verdadero no te hace sentir menos, te hace sentir más.',
-  'Amar es un verbo, es una elección diaria que se cultiva con acciones y palabras.',
-  'Encuentra un trabajo que te apasione, y nunca sentirás que estás trabajando.',
-  'Sé proactivo y toma la iniciativa en tu trabajo, eso será valorado por tus superiores.',
-  'Aprende de tus errores y fracasos, son oportunidades para crecer y mejorar.',
-  'Mantén una actitud positiva y busca soluciones ante los desafíos laborales.',
-  'Cultiva buenas relaciones con tus colegas, el trabajo en equipo es clave para el éxito.',
-  'Establece metas claras y realistas, y trabaja con determinación para alcanzarlas.',
-  'No tengas miedo de pedir ayuda o buscar mentoría, siempre hay algo nuevo que aprender.',
-  'Reconoce y valora tus logros, celebra tus éxitos por pequeños que sean.',
-  'Busca un equilibrio entre tu vida laboral y personal, ambos aspectos son importantes.',
-  'El trabajo es una parte importante de tu vida, pero no es lo único que define quién eres.',
-  'Cree en ti mismo y en tu capacidad para lograr lo que te propongas.',
-  'Visualiza tus metas y sueños, imagina cómo te sentirás al alcanzarlos.',
-  'Encuentra inspiración en aquellos que han superado obstáculos similares a los tuyos.',
-  'Acepta los fracasos como parte del proceso, son oportunidades para aprender y crecer.',
-  'Rodéate de personas positivas y que te impulsen hacia adelante.',
-  'Mantén una mentalidad abierta y dispuesta a aprender cosas nuevas.',
-  'Recuerda por qué empezaste cuando te sientas desmotivado; reconecta con tu propósito.',
-  'Divide tus metas en pequeños pasos, eso hará el camino más alcanzable y menos abrumador.',
-  'No tengas miedo de perseguir tus sueños, la vida es demasiado corta para vivir con arrepentimientos.',
-  'Confía en que, con esfuerzo y perseverancia, puedes lograr todo lo que te propongas.',
-];
+   "تقبل أن التغييرات جزء طبيعي من الحياة، وتعلم كيفية التكيف معها."
+   'لا تتوقف عن التعلم؛  المعرفة هي أداة قوية.',
+   "اعتني بصحتك الجسدية والعقلية، فهي ضرورية لحياة كاملة."
+   "استمتع بالأشياء الصغيرة، لأنها هي التي تعطي معنى للحياة."
+   "تعلم أن تسامح الآخرين ونفسك، لتحرر قلبك."
+   "قدر الوقت الذي تقضيه مع أحبائك، فهو أثمن هدية يمكنك تقديمها وتلقيها.",
+   "كن لطيفًا ورحيمًا مع الآخرين، فكل عمل طيب يمكن أن يحدث فرقًا في حياتهم."
+   "تعلم أن تقول "لا" عند الضرورة، وضع حدودًا صحية.",
+   "خصص وقتًا للقيام بالأشياء التي تحبها، لأن ذلك يغذي روحك ويجعلك تشعر بالحياة."
+   "لا تقارن نفسك بالآخرين، فلكل شخص طريقه وإيقاعه الخاص في الحياة."
+   "استمع إلى شريكك بتعاطف وتفهم، فالتواصل هو أساس العلاقة المتينة.",
+   "لا تخف من التعبير عن مشاعرك، فالصدق ضروري في الحب."
+   "تعلموا الاستسلام والتسوية، فالحب يتطلب التضحية والجهد المتبادل."
+   "فاجئ شريك حياتك من وقت لآخر، وحافظ على شرارة الرومانسية حية.",
+   "احترم شخصية شريكك واسمح له بالنمو كشخص.",
+   "حب الذات لا يقل أهمية عن حب شخص آخر؛  اعتني بنفسك وقدر نفسك.',
+   "تذكر أن العلاقة الصحية تقوم على الثقة والاحترام المتبادلين."
+   "اختر شخصًا يكملك ويجعلك نسخة أفضل من نفسك."
+   "الحب الحقيقي لا يجعلك تشعر بأنك أقل، بل يجعلك تشعر أكثر."
+   "الحب فعل، إنه اختيار يومي، يُزرع بالأفعال والكلمات."
+   "ابحث عن وظيفة تثير شغفك، ولن تشعر أبدًا أنك تعمل.",
+   "كن استباقيًا وخذ زمام المبادرة في عملك، فهذا سيقدره رؤسائك."
+   "تعلم من أخطائك وإخفاقاتك، فهي فرص للنمو والتحسن."
+   "حافظ على موقف إيجابي وابحث عن حلول لتحديات العمل.",
+   'قم ببناء علاقات جيدة مع زملائك، فالعمل الجماعي هو مفتاح النجاح.',
+   "ضع أهدافًا واضحة وواقعية، واعمل بإصرار على تحقيقها."
+   "لا تخف من طلب المساعدة أو طلب الإرشاد، فهناك دائمًا شيء جديد لتتعلمه.",
+   "تقدّر إنجازاتك وقدّرها، واحتفل بنجاحاتك مهما كانت صغيرة."
+   "ابحث عن التوازن بين عملك وحياتك الشخصية، فكلا الجانبين مهم.",
+   "العمل جزء مهم من حياتك، ولكنه ليس الشيء الوحيد الذي يحدد هويتك.",
+   "ثق بنفسك وبقدرتك على تحقيق ما تنوي القيام به."
+   "تصور أهدافك وأحلامك، تخيل كيف ستشعر عندما تحققها.",
+   "احصل على الإلهام من أولئك الذين تغلبوا على عقبات مماثلة لتلك التي تواجهك.",
+   "تقبل الإخفاقات كجزء من العملية، فهي فرص للتعلم والنمو."
+   "أحط نفسك بأشخاص إيجابيين يدفعونك للأمام."
+   "حافظ على عقل متفتح واستعداد لتعلم أشياء جديدة.",
+   "تذكر لماذا بدأت عندما كنت تشعر بعدم التحفيز؛  أعد الاتصال بهدفك.',
+   "قسّم أهدافك إلى خطوات صغيرة، فهذا سيجعل الطريق أكثر قابلية للتحقيق وأقل إرباكًا.",
+   "لا تخف من ملاحقة أحلامك، فالحياة أقصر من أن تعيشها مع الندم."
+   "ثق أنه بالجهد والمثابرة، يمكنك تحقيق كل ما تضعه في ذهنك."
+ ];

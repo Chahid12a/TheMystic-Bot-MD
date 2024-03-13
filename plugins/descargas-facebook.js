@@ -5,10 +5,10 @@ import fbDownloader from 'fb-downloader-scrapper';
 import {facebook} from '@xct007/frieren-scraper';
 import axios from 'axios';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `_*< DESCARGAS - FACEBOOK />*_\n\n*[ ℹ️ ] أدخل رابط الفيسبوك.*\n\n*[ 💡 ] متال:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
-  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `_*< DESCARGAS - FACEBOOK />*_\n\n*[ ℹ️ ] Ingrese un enlace de Facebook.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
+  if (!args[0]) throw `_*< التحميلات - FACEBOOK />*_\n\n*[ ℹ️ ] أدخل رابط الفيسبوك.*\n\n*[ 💡 ] متال:* _${usedPrefix + command} https://fb.watch/xxxxxxxxxx/_`;
+  if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `_*< التحميلات - FACEBOOK />*_\n\n*[ ℹ️ ] أدخل رابط الفيسبوك.*\n\n*[ 💡 ] متال:* _${usedPrefix + command} https://fb.watch/fOTpgn6UFQ/_`;
   try {
-    await m.reply(`_*< DESCARGAS - FACEBOOK />*_\n\n*[ ℹ️ ] يتم إرساله...*`);
+    await m.reply(`_*< التحميلات - FACEBOOK />*_\n\n*[ ℹ️ ] يتم إرساله...*`);
     const d2ata = await facebook.v1(args[0]);
     let r2es = '';
     if (d2ata.urls && d2ata.urls.length > 0) {
@@ -25,7 +25,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
         const Jjson = await Rres.json();
         let VIDEO = Jjson.result[0];
         if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
-        conn.sendFile(m.chat, VIDEO, 'error.mp4', `_*< DESCARGAS - FACEBOOK />*_\n\n`, m);
+        conn.sendFile(m.chat, VIDEO, 'error.mp4', `_*< التحميلات - FACEBOOK />*_\n\n`, m);
       } catch (err2) {
         try {
           const ress = await fg.fbdl(args[0]);

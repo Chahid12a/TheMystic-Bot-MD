@@ -22,16 +22,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `Bot Whatsapp
-
- ▢ *السلام عليكم* ${taguser}
-
- _________________________________
+▢ *السلام عليكم* ${taguser}
+حساباتي على مواقع التواصل الاجتماعي:
+_________________________________
  • Instagram: https://instagram.com/chahid_mohammed1
  • Facebook : https://www.facebook.com/chahid01s -my account-
  • Facebook : https://www.facebook.com/chahidlog -my page-
  __________________________________
-*معلوماتك*
-
  ▢ *Nivel:* ${level}
  ▢ *Experiencia:* ${exp}
  ▢ *Rango:* ${role}
@@ -42,7 +39,24 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ${readMore}
 
 *الاوامر التحميل*
-
+تحميل من يوتيوب:
+ ▢ _${usedPrefix}ytmp4 *<url>*_
+ ▢ _${usedPrefix}ytmp3 *<url>*_
+ تحميل من فيسبوك:
+ ▢ _${usedPrefix}facebook *<url>*_
+  تحميل من انستغرام:
+ ▢ _${usedPrefix}instagram *<url>*_
+ ▢ _${usedPrefix}igstory *<usr>*_
+ تحميل من سبوتيفاي:
+ ▢ _${usedPrefix}spotify *<txt>*_
+  تحميل من تيكتوك:
+  ▢ _${usedPrefix}tiktok *<url>*_
+ ▢ _${usedPrefix}tiktokimg *<url>*_
+ ▢ _${usedPrefix}pptiktok *<usr>*_
+ تحميل من ميديافير و خوجل درايف
+ ▢ _${usedPrefix}mediafire *<url>*_ 
+ ▢ _${usedPrefix}gdrive *<url>*_
+ باقي مواقع اخري..
  ▢ _${usedPrefix}play *<txt>*_
  ▢ _${usedPrefix}play2 *<txt>*_
  ▢ _${usedPrefix}play.1 *<txt>*_
@@ -51,22 +65,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ▢ _${usedPrefix}playdoc2 *<txt>*_
  ▢ _${usedPrefix}playlist *<txt>*_
  ▢ _${usedPrefix}ytshort *<url>*_
- ▢ _${usedPrefix}ytmp3 *<url>*_
  ▢ _${usedPrefix}ytmp3doc *<url>*_
- ▢ _${usedPrefix}ytmp4 *<url>*_
  ▢ _${usedPrefix}ytmp4doc *<url>*_
  ▢ _${usedPrefix}videodoc *<url>*_
- ▢ _${usedPrefix}spotify *<txt>*_
- ▢ _${usedPrefix}facebook *<url>*_
- ▢ _${usedPrefix}instagram *<url>*_
- ▢ _${usedPrefix}igstory *<usr>*_
- ▢ _${usedPrefix}tiktok *<url>*_
- ▢ _${usedPrefix}tiktokimg *<url>*_
- ▢ _${usedPrefix}pptiktok *<usr>*_
- ▢ _${usedPrefix}mediafire *<url>*_ 
  ▢ _${usedPrefix}pinterest *<txt>*_
  ▢ _${usedPrefix}gitclone *<url>*_
- ▢ _${usedPrefix}gdrive *<url>*_
  ▢ _${usedPrefix}twitter *<url>*_
  ▢ _${usedPrefix}ringtone *<txt>*_
  ▢ _${usedPrefix}soundcloud *<txt>*_

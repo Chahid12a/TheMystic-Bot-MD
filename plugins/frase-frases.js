@@ -1,13 +1,13 @@
 import translate from '@vitalets/google-translate-api';
 import fetch from 'node-fetch';
 const handler = async (m, {conn, command}) => {
-  if (command === 'consejo') {
+  if (command === 'nassi7a') {
     const consejo = consejos[Math.floor(Math.random() * consejos.length)];
     const mensaje = `╭─◆────◈⚘◈─────◆─╮\n\n⠀⠀🌟 *نصيحة اليوم* 🌟\n\n❥ ${consejo}\n\n╰─◆────◈⚘◈─────◆─╯`;
     await m.reply(mensaje);
   }
 
-  if (command === 'fraseromantica') {
+  if (command === 'romantic') {
     const frase_romantica = frasesromanticas[Math.floor(Math.random() * frasesromanticas.length)];
     const mensaje = `╭─◆────◈⚘◈─────◆─╮\n\n⠀⠀💖 *عبارة رومانسية* 💖\n\n❥ ${frase_romantica}\n\n╰─◆────◈⚘◈─────◆─╯`;
     await m.reply(mensaje);
@@ -31,7 +31,7 @@ ${storytime.text}`, m);
   }
 };
 handler.tags = ['frases'];
-handler.command = handler.help = ['consejo', 'fraseromantica', 'historiaromantica'];
+handler.command = handler.help = ['nassi7a', 'romantic', 'historiaromantica'];
 export default handler;
 
 async function cerpen(category) {

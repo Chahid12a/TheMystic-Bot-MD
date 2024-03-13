@@ -25,6 +25,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
  ▢ *السلام عليكم* ${taguser}
 
+ _________________________________
+ • Instagram: https://instagram.com/chahid_mohammed1
+ • Facebook : https://www.facebook.com/chahid01s -my account-
+ • Facebook : https://www.facebook.com/chahidlog -my page-
+ __________________________________
 *معلوماتك*
 
  ▢ *Nivel:* ${level}
@@ -72,6 +77,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  *الدكاء الاصطناعي*
  
  ▢ _${usedPrefix}ai_
+ ▢ _${usedPrefix}chatgpt *<txt>*_
 
  الاوامر البحت
   ▢ _${usedPrefix}google *<txt>*_
@@ -154,7 +160,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  *الادوات*
   ▢ _${usedPrefix}reminihd
   ▢ _${usedPrefix}inspect *<wagc_url>*_
-  ▢ _${usedPrefix}chatgpt *<txt>*_
   ▢ _${usedPrefix}delchatgpt
   ▢ _${usedPrefix}gptvoz *<txt>*_
   ▢ _${usedPrefix}dall-e *<txt>*_

@@ -26,43 +26,54 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 حساباتي على مواقع التواصل الاجتماعي:
 _________________________________
  • Instagram: https://instagram.com/chahid_mohammed1
- • Facebook : https://www.facebook.com/chahid01s -my account-
- • Facebook : https://www.facebook.com/chahidlog -my page-
+ 
+ • Facebook (my account): https://www.facebook.com/chahid01s
+ 
+ • Facebook (my page): https://www.facebook.com/chahidlog 
  __________________________________
- ▢ *Nivel:* ${level}
- ▢ *Experiencia:* ${exp}
- ▢ *Rango:* ${role}
- ▢ *Diamantes:* ${limit}
- ▢ *MysticCoins:* ${money}
- ▢ *Tokens:* ${joincount}
- ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
+ ▢ *مستواك:* ${level}
+ ▢ *المستوى الخبرة:* ${exp}
+ ▢ *يتراوج:* ${role}
+ ▢ *الالماس:* ${limit}
+ ▢ *نقاطك:* ${money}
+ ▢ *الرموز:* ${joincount}
+ ▢ *حالة حسابك:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
 *الاوامر التحميل*
+
 تحميل من يوتيوب:
+
  ▢ _${usedPrefix}ytmp4 *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytmp4doc *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytmp3 *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytshort *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytmp3doc *<رابط_الفيديو>*_
  تحميل من فيسبوك:
+ 
  ▢ _${usedPrefix}facebook *<رابط_الفيديو>*_
   تحميل من انستغرام:
+  
  ▢ _${usedPrefix}instagram *<رابط_الفيديو>*_
  ▢ _${usedPrefix}igstory *<اسم_المستخدم>*_
  تحميل من سبوتيفاي:
+ 
  ▢ _${usedPrefix}spotify *<اسم_مغني_والاغنية>*_
   تحميل من تيكتوك:
+  
   ▢ _${usedPrefix}tiktok *<url>*_
  ▢ _${usedPrefix}tiktokimg *<url>*_
  ▢ _${usedPrefix}pptiktok *<usr>*_
  تحميل من ميديافير و خوجل درايف
+ 
  ▢ _${usedPrefix}mediafire *<url>*_ 
  ▢ _${usedPrefix}gdrive *<url>*_
  تحميل التطبيقات:
+ 
  ▢ _${usedPrefix}dapk2 *<url>*_
  ▢ _${usedPrefix}modapk *<txt>*_
  باقي مواقع اخري..
+ 
  ▢ _${usedPrefix}play *<txt>*_
  ▢ _${usedPrefix}play2 *<txt>*_
  ▢ _${usedPrefix}play.1 *<txt>*_

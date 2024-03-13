@@ -56,6 +56,9 @@ _________________________________
  تحميل من ميديافير و خوجل درايف
  ▢ _${usedPrefix}mediafire *<url>*_ 
  ▢ _${usedPrefix}gdrive *<url>*_
+ تحميل التطبيقات:
+ ▢ _${usedPrefix}dapk2 *<url>*_
+ ▢ _${usedPrefix}modapk *<txt>*_
  باقي مواقع اخري..
  ▢ _${usedPrefix}play *<txt>*_
  ▢ _${usedPrefix}play2 *<txt>*_
@@ -74,8 +77,7 @@ _________________________________
  ▢ _${usedPrefix}ringtone *<txt>*_
  ▢ _${usedPrefix}soundcloud *<txt>*_
  ▢ _${usedPrefix}stickerpack *<url>*_
- ▢ _${usedPrefix}wallpaper *<txt>*_ 
- ▢ _${usedPrefix}dapk2 *<url>*_
+ ▢ _${usedPrefix}wallpaper *<txt>*_
 
  *الدكاء الاصطناعي*
  
@@ -86,7 +88,6 @@ _________________________________
   ▢ _${usedPrefix}google *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
-  ▢ _${usedPrefix}modapk *<txt>*_
   ▢ _${usedPrefix}githubsearch *<txt>*_
   ▢ _${usedPrefix}pelisplus *<txt>*_
   ▢ _${usedPrefix}stickersearch *<txt>*_

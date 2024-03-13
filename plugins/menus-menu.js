@@ -109,6 +109,9 @@ _________________________________
   ▢ _${usedPrefix}letra *<txt>*_
   ▢ _${usedPrefix}wikipedia *<txt>*_
 
+  *حالتك*
+  ▢ _${usedPrefix}nassi7a_
+  ▢ _${usedPrefix}romantic_
 
  *خاص بالمجموعات*
 

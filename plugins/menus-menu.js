@@ -40,15 +40,18 @@ _________________________________
 
 *الاوامر التحميل*
 تحميل من يوتيوب:
- ▢ _${usedPrefix}ytmp4 *<url>*_
- ▢ _${usedPrefix}ytmp3 *<url>*_
+ ▢ _${usedPrefix}ytmp4 *<رابط_الفيديو>*_
+ ▢ _${usedPrefix}ytmp4doc *<رابط_الفيديو>*_
+ ▢ _${usedPrefix}ytmp3 *<رابط_الفيديو>*_
+ ▢ _${usedPrefix}ytshort *<رابط_الفيديو>*_
+ ▢ _${usedPrefix}ytmp3doc *<رابط_الفيديو>*_
  تحميل من فيسبوك:
- ▢ _${usedPrefix}facebook *<url>*_
+ ▢ _${usedPrefix}facebook *<رابط_الفيديو>*_
   تحميل من انستغرام:
- ▢ _${usedPrefix}instagram *<url>*_
- ▢ _${usedPrefix}igstory *<usr>*_
+ ▢ _${usedPrefix}instagram *<رابط_الفيديو>*_
+ ▢ _${usedPrefix}igstory *<اسم_المستخدم>*_
  تحميل من سبوتيفاي:
- ▢ _${usedPrefix}spotify *<txt>*_
+ ▢ _${usedPrefix}spotify *<اسم_مغني_والاغنية>*_
   تحميل من تيكتوك:
   ▢ _${usedPrefix}tiktok *<url>*_
  ▢ _${usedPrefix}tiktokimg *<url>*_
@@ -67,9 +70,6 @@ _________________________________
  ▢ _${usedPrefix}playdoc *<txt>*_
  ▢ _${usedPrefix}playdoc2 *<txt>*_
  ▢ _${usedPrefix}playlist *<txt>*_
- ▢ _${usedPrefix}ytshort *<url>*_
- ▢ _${usedPrefix}ytmp3doc *<url>*_
- ▢ _${usedPrefix}ytmp4doc *<url>*_
  ▢ _${usedPrefix}videodoc *<url>*_
  ▢ _${usedPrefix}pinterest *<txt>*_
  ▢ _${usedPrefix}gitclone *<url>*_

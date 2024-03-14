@@ -50,7 +50,7 @@ const handler = async (m, {
 *Download* : ${v.downloadUrl}
    `.trim();
         }).filter((v) => v).join('\n\n________________________\n\n');
-        await m.reply(teks || '*البريد فارغ*' + '\n\n_Ejemplo *' + usedPrefix + command + ' delete* لحذف رسائل البريد الإلكتروني_');
+        await m.reply(teks || '*البريد فارغ*' + '\n\n_Ejemplo *' + usedPrefix + command + ' delete* لحذف البريد الإلكتروني_');
       } catch (e) {
         await m.reply(eror);
       }

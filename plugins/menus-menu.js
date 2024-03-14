@@ -52,18 +52,18 @@ _________________________________
  تحميل من فيسبوك:
  
  ▢ _${usedPrefix}facebook *<رابط_الفيديو>*_
- ▢ _${usedPrefix}fbdl
+ ▢ _${usedPrefix}fbdl *<رابط_الفيديو>*_
   تحميل من انستغرام:
   
  ▢ _${usedPrefix}instagram *<رابط_الفيديو>*_
- ▢ _${usedPrefix}ig
+ ▢ _${usedPrefix}ig *<رابط_الفيديو>*_
  ▢ _${usedPrefix}igstory *<اسم_المستخدم>*_
  تحميل من سبوتيفاي:
  
  ▢ _${usedPrefix}spotify *<اسم_مغني_والاغنية>*_
   تحميل من تيكتوك:
   
-  ▢ _${usedPrefix}tiktok *<url>*_
+ ▢ _${usedPrefix}tiktok *<url>*_
  ▢ _${usedPrefix}tiktokimg *<url>*_
  ▢ _${usedPrefix}pptiktok *<usr>*_
  تحميل من ميديافير و خوجل درايف
@@ -100,6 +100,7 @@ _________________________________
 *خدمة البريد المؤقت*
 _هذه الميزة تمكنكم من انشاء حسابات مختلفة باقي المواقع متال : فيسبو...ولأجل الاستفادة قم بكتابة_
   ▢ _${usedPrefix}dropmail_
+  
  الاوامر البحت
   ▢ _${usedPrefix}google *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
@@ -115,6 +116,9 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   *حالتك*
   ▢ _${usedPrefix}nassi7a_
   ▢ _${usedPrefix}romantic_
+
+  *الدين الاسلامي*
+ ▢ _${usedPrefix}asmaeallah_
 
  *خاص بالمجموعات*
 

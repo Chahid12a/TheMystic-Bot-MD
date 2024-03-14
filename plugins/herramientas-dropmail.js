@@ -16,7 +16,7 @@ const handler = async (m, {
   ];
 
   const [feature, inputs, inputs_, inputs__, inputs___] = text.split(' ');
-  if (!lister.includes(feature)) return m.reply('*اختر اولاcreate لاحل انشاء حساب تم اخترmessage الوصول الى الرسائل البريدية:*\n' + usedPrefix + command + ' create\n\n*قم باختيار احد الخيارات*\n' + lister.map((v, index) => '  ○ ' + v).join('\n'));
+  if (!lister.includes(feature)) return m.reply('*اختر اولاcreate لاجل انشاء حساب تم اخترmessage الوصول الى الرسائل البريدية:*\n' + usedPrefix + command + ' create\n\n*قم باختيار احد الخيارات*\n' + lister.map((v, index) => '  ○ ' + v).join('\n'));
 
   if (lister.includes(feature)) {
     if (feature == 'create') {
@@ -50,7 +50,7 @@ const handler = async (m, {
 *Download* : ${v.downloadUrl}
    `.trim();
         }).filter((v) => v).join('\n\n________________________\n\n');
-        await m.reply(teks || '*VACÍO*' + '\n\n_Ejemplo *' + usedPrefix + command + ' delete* لحذف رسائل البريد الإلكتروني_');
+        await m.reply(teks || '*البريد فارغ*' + '\n\n_Ejemplo *' + usedPrefix + command + ' delete* لحذف رسائل البريد الإلكتروني_');
       } catch (e) {
         await m.reply(eror);
       }

@@ -16,7 +16,7 @@ const handler = async (m, {
   ];
 
   const [feature, inputs, inputs_, inputs__, inputs___] = text.split(' ');
-  if (!lister.includes(feature)) return m.reply('*Ejemplo:*\n' + usedPrefix + command + ' create\n\n*قم باختيار احد الخيارات*\n' + lister.map((v, index) => '  ○ ' + v).join('\n'));
+  if (!lister.includes(feature)) return m.reply('*اختر اولاcreate لاحل انشاء حساب تم اخترmessage الوصول الى الرسائل البريدية:*\n' + usedPrefix + command + ' create\n\n*قم باختيار احد الخيارات*\n' + lister.map((v, index) => '  ○ ' + v).join('\n'));
 
   if (lister.includes(feature)) {
     if (feature == 'create') {

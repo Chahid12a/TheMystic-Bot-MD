@@ -97,6 +97,9 @@ _________________________________
  ▢ _${usedPrefix}ai_
  ▢ _${usedPrefix}chatgpt *<txt>*_
 
+*خدمة البريد المؤقت*
+_هذه الميزة تمكنكم من انشاء حسابات مختلفة باقي المواقع متال : فيسبو...ولأجل الاستفادة قم بكتابة_
+  ▢ _${usedPrefix}dropmail_
  الاوامر البحت
   ▢ _${usedPrefix}google *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
@@ -203,7 +206,6 @@ _________________________________
   ▢ _${usedPrefix}nowa *num>*_
   ▢ _${usedPrefix}covid *<pais>*_
   ▢ _${usedPrefix}horario_
-  ▢ _${usedPrefix}dropmail_
   ▢ _${usedPrefix}igstalk *<usr>*_
   ▢ _${usedPrefix}tiktokstalk *<usr>*_
   ▢ _${usedPrefix}img *<txt>*_

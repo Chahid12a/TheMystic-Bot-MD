@@ -16,7 +16,7 @@ const handler = async (m, {
   ];
 
   const [feature, inputs, inputs_, inputs__, inputs___] = text.split(' ');
-  if (!lister.includes(feature)) return m.reply('*Ejemplo:*\n' + usedPrefix + command + ' create\n\n*Seleccione un tipo existente*\n' + lister.map((v, index) => '  ○ ' + v).join('\n'));
+  if (!lister.includes(feature)) return m.reply('*Ejemplo:*\n' + usedPrefix + command + ' create\n\n*قم باختيار احد الخيارات*\n' + lister.map((v, index) => '  ○ ' + v).join('\n'));
 
   if (lister.includes(feature)) {
     if (feature == 'create') {
@@ -24,7 +24,7 @@ const handler = async (m, {
         const eml = await random_mail();
         const timeDiff = new Date(eml[2]) - new Date();
         conn.dropmail[id] = [
-          await m.reply('*EMAIL:*\n' + eml[0] + '\n\n' + '*ID:*\n' + eml[1] + '\n\n*Expired:*\n' + msToTime(timeDiff) + '\n\n_Ejemplo *' + usedPrefix + command + ' message* Para comprobar la bandeja de entrada_'),
+          await m.reply('*EMAIL:*\n' + eml[0] + '\n\n' + '*ID:*\n' + eml[1] + '\n\n*Expired:*\n' + msToTime(timeDiff) + '\n\n_Ejemplo *' + usedPrefix + command + ' message* للتحقق من البريد الوارد الخاص بك_'),
           eml[0],
           eml[1],
           eml[2],
@@ -35,7 +35,7 @@ const handler = async (m, {
     }
 
     if (feature == 'message') {
-      if (!conn.dropmail[id]) return m.reply('No hay mensajes, cree un correo electrónico primero\nEjemplo *' + usedPrefix + command + ' create*');
+      if (!conn.dropmail[id]) return m.reply('لا توجد رسائل، يرجى إنشاء بريد إلكتروني أولا\nEjemplo *' + usedPrefix + command + ' create*');
 
       try {
         const eml = await get_mails(conn.dropmail[id][2]);
@@ -50,17 +50,17 @@ const handler = async (m, {
 *Download* : ${v.downloadUrl}
    `.trim();
         }).filter((v) => v).join('\n\n________________________\n\n');
-        await m.reply(teks || '*VACÍO*' + '\n\n_Ejemplo *' + usedPrefix + command + ' delete* Para eliminar correos electrónicos_');
+        await m.reply(teks || '*VACÍO*' + '\n\n_Ejemplo *' + usedPrefix + command + ' delete* لحذف رسائل البريد الإلكتروني_');
       } catch (e) {
         await m.reply(eror);
       }
     }
     if (feature == 'delete') {
-      if (!conn.dropmail[id]) return m.reply('No hay correo valido');
+      if (!conn.dropmail[id]) return m.reply('لا يوجد بريد إلكتروني صالح');
 
       try {
         delete conn.dropmail[id];
-        await m.reply('Correo electrónico eliminado con éxito');
+        await m.reply('تم حذف البريد الإلكتروني بنجاح');
       } catch (e) {
         await m.reply(eror);
       }

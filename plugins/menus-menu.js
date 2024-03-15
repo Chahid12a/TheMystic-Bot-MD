@@ -41,41 +41,40 @@ _________________________________
  ${readMore}
 
 *الاوامر التحميل*
-
+__________________________________
 تحميل من يوتيوب:
-
  ▢ _${usedPrefix}ytmp4 *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytmp4doc *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytmp3 *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytshort *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytmp3doc *<رابط_الفيديو>*_
+ __________________________________
  تحميل من فيسبوك:
- 
  ▢ _${usedPrefix}facebook *<رابط_الفيديو>*_
  ▢ _${usedPrefix}fbdl *<رابط_الفيديو>*_
+ __________________________________
   تحميل من انستغرام:
-  
  ▢ _${usedPrefix}instagram *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ig *<رابط_الفيديو>*_
  ▢ _${usedPrefix}igstory *<اسم_المستخدم>*_
+ __________________________________
  تحميل من سبوتيفاي:
- 
  ▢ _${usedPrefix}spotify *<اسم_مغني_والاغنية>*_
+ __________________________________
   تحميل من تيكتوك:
-  
  ▢ _${usedPrefix}tiktok *<url>*_
  ▢ _${usedPrefix}tiktokimg *<url>*_
  ▢ _${usedPrefix}pptiktok *<usr>*_
+ __________________________________
  تحميل من ميديافير و خوجل درايف
- 
  ▢ _${usedPrefix}mediafire *<url>*_ 
  ▢ _${usedPrefix}gdrive *<url>*_
+ __________________________________
  تحميل التطبيقات:
- 
  ▢ _${usedPrefix}dapk2 *<url>*_
  ▢ _${usedPrefix}modapk *<txt>*_
+ __________________________________
  باقي مواقع اخري..
- 
  ▢ _${usedPrefix}play *<txt>*_
  ▢ _${usedPrefix}play2 *<txt>*_
  ▢ _${usedPrefix}play.1 *<txt>*_
@@ -91,33 +90,30 @@ _________________________________
  ▢ _${usedPrefix}soundcloud *<txt>*_
  ▢ _${usedPrefix}stickerpack *<url>*_
  ▢ _${usedPrefix}wallpaper *<txt>*_
-
+__________________________________
  *الدكاء الاصطناعي*
- 
  ▢ _${usedPrefix}ai_
  ▢ _${usedPrefix}chatgpt *<txt>*_
-
+__________________________________
 *خدمة البريد المؤقت*
 _هذه الميزة تمكنكم من انشاء حسابات مختلفة باقي المواقع متال : فيسبو...ولأجل الاستفادة قم بكتابة_
   ▢ _${usedPrefix}dropmail_
-  
+  __________________________________
  الاوامر البحت
   ▢ _${usedPrefix}google *<txt>*_
   ▢ _${usedPrefix}wikipedia *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
   ▢ _${usedPrefix}githubsearch *<txt>*_
-
-
+__________________________________
   *حالتك*
   ▢ _${usedPrefix}nassi7a_
   ▢ _${usedPrefix}romantic_
-
+__________________________________
   *الدين الاسلامي*
  ▢ _${usedPrefix}asmaeallah_
-
+__________________________________
  *خاص بالمجموعات*
-
   ▢ _${usedPrefix}add *num>*_
   ▢ _${usedPrefix}kick *<@tag>*_
   ▢ _${usedPrefix}kick2 *<@tag>*_
@@ -146,10 +142,8 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   ▢ _${usedPrefix}destraba_
   ▢ _${usedPrefix}setpp *<img>*_
   ▢ _admins *<txt>*_ (sin prefijo)
-
-
+__________________________________
  _*< EFECTOS & LOGOS />*_
-
   ▢ _${usedPrefix}logos *<efecto> <txt>*_
   ▢ _${usedPrefix}logochristmas *<txt>*_
   ▢ _${usedPrefix}logocorazon *<txt>*_
@@ -160,10 +154,8 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   ▢ _${usedPrefix}itssostupid_
   ▢ _${usedPrefix}pixelar_
   ▢ _${usedPrefix}blur_
-
+__________________________________
  *الصور*
-
- 
   ▢ _${usedPrefix}cristianoronaldo_
   ▢ _${usedPrefix}messi_
   ▢ _${usedPrefix}cat_
@@ -179,7 +171,7 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   ▢ _${usedPrefix}hacker_
   ▢ _${usedPrefix}planeta_
   ▢ _${usedPrefix}randomprofile_
-
+__________________________________
  *الادوات*
   ▢ _${usedPrefix}reminihd
   ▢ _${usedPrefix}inspect *<wagc_url>*_
@@ -209,9 +201,8 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   ▢ _${usedPrefix}igstalk *<usr>*_
   ▢ _${usedPrefix}tiktokstalk *<usr>*_
   ▢ _${usedPrefix}img *<txt>*_
-
+__________________________________
  *الملصقات*
-
   ▢ _${usedPrefix}sticker *<responder a img o video>*_
   ▢ _${usedPrefix}sticker *<url>*_
   ▢ _${usedPrefix}sticker2 *<responder a img o video>*_
@@ -236,22 +227,20 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   ▢ _${usedPrefix}dado_
   ▢ _${usedPrefix}stickermarker *<efecto> <img>*_
   ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
-
+__________________________________
 *الانتساب إلى البوت*
-
   ▢ _${usedPrefix}serbot --code_
   ▢ _${usedPrefix}serbot_
   ▢ _${usedPrefix}deletebot_
   ▢ _${usedPrefix}token_
   ▢ _${usedPrefix}stop_
   ▢ _${usedPrefix}bots_
-  
+  __________________________________
  *حول البوت*
-
   ▢ _${usedPrefix}about_
   ▢ _${usedPrefix}speedtest_
   ▢ _${usedPrefix}report_ _.الابلاغ عن مبزة لاتستغل او اي شيء_
-  
+  __________________________________
 *إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة أرسل رسالة او تريد ان تحدف امرا ارسل رساله الى هذا الرقم*
 +212679556171
  `.trim();

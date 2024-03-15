@@ -1,10 +1,10 @@
-const { Client } = require('whatsapp-web.js');
-const client = new Client();
+const handler = async (m, {conn}) => {
+  m.reply(global.terminos);
+};
+handler.customPrefix = /my/i;
+handler.command = new RegExp;
+export default handler;
 
-client.on('message', message => {
-  if(message.body === '.txht') {
-    message.reply('هذه هي الرسالة التي طلبتها.');
-  }
-});
-
-client.initialize();
+global.terminos = `
+xxxxxxxxxxxxxx
+`;

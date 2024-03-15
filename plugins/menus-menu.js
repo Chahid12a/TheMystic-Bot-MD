@@ -89,7 +89,6 @@ __________________________________
  ▢ _${usedPrefix}ringtone *<txt>*_
  ▢ _${usedPrefix}soundcloud *<txt>*_
  ▢ _${usedPrefix}stickerpack *<url>*_
- ▢ _${usedPrefix}wallpaper *<txt>*_
 __________________________________
  *الدكاء الاصطناعي*
  ▢ _${usedPrefix}ai_
@@ -173,7 +172,7 @@ __________________________________
   ▢ _${usedPrefix}randomprofile_
 __________________________________
  *الادوات*
-  ▢ _${usedPrefix}reminihd
+  ▢ _${usedPrefix}reminihd_
   ▢ _${usedPrefix}inspect *<wagc_url>*_
   ▢ _${usedPrefix}delchatgpt
   ▢ _${usedPrefix}gptvoz *<txt>*_

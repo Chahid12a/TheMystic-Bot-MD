@@ -103,15 +103,11 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   
  الاوامر البحت
   ▢ _${usedPrefix}google *<txt>*_
+  ▢ _${usedPrefix}wikipedia *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
   ▢ _${usedPrefix}githubsearch *<txt>*_
-  ▢ _${usedPrefix}pelisplus *<txt>*_
-  ▢ _${usedPrefix}stickersearch *<txt>*_
-  ▢ _${usedPrefix}stickersearch2 *<txt>*_
-  ▢ _${usedPrefix}animeinfo *<txt>*_
-  ▢ _${usedPrefix}letra *<txt>*_
-  ▢ _${usedPrefix}wikipedia *<txt>*_
+
 
   *حالتك*
   ▢ _${usedPrefix}nassi7a_

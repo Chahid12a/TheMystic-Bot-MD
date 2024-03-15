@@ -1,13 +1,10 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-  document.getElementById('commandInput').addEventListener('keypress', function(e) {
-    if (e.key === 'Enter') {
-      if (this.value === '.texte') {
-        displayText('هذا هو النص الذي تريد عرضه.');
-      }
-    }
-  });
+const { Client } = require('whatsapp-web.js');
+const client = new Client();
+
+client.on('message', message => {
+  if(message.body === '.txht') {
+    message.reply('هذه هي الرسالة التي طلبتها.');
+  }
 });
 
-function displayText(text) {
-  document.getElementById('displayText').innerText = text;
-}
+client.initialize();

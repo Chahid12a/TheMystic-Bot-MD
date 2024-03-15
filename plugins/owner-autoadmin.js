@@ -1,4 +1,4 @@
-/* Creditos a https://github.com/unptoadrih15/UPABOT-MD */
+/* Creditos a https://github.com/unptoadrih15/UPABOT-MDxxx */
 
 const handler = async (m, {conn, isAdmin}) => {
   if (m.fromMe) return;

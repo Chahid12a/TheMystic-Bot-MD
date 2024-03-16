@@ -112,36 +112,7 @@ __________________________________
  ▢ _${usedPrefix}asmaeallah_
  
 __________________________________
- *خاص بالمجموعات*
-  ▢ _${usedPrefix}add *num>*_
-  ▢ _${usedPrefix}kick *<@tag>*_
-  ▢ _${usedPrefix}kick2 *<@tag>*_
-  ▢ _${usedPrefix}listanum *<txt>*_
-  ▢ _${usedPrefix}kicknum *<txt>*_
-  ▢ _${usedPrefix}grupo *<abrir/cerrar>*_
-  ▢ _${usedPrefix}grouptime *<opcion> <tiempo>*_
-  ▢ _${usedPrefix}promote *<@tag>*_
-  ▢ _${usedPrefix}demote *<@tag>*_
-  ▢ _${usedPrefix}infogroup_
-  ▢ _${usedPrefix}resetlink_
-  ▢ _${usedPrefix}link_
-  ▢ _${usedPrefix}setname *<txt>*_
-  ▢ _${usedPrefix}setdesc *<txt>*_
-  ▢ _${usedPrefix}invocar *<txt>*_
-  ▢ _${usedPrefix}setwelcome *<txt>*_
-  ▢ _${usedPrefix}setbye *<txt>*_
-  ▢ _${usedPrefix}hidetag *<txt>*_
-  ▢ _${usedPrefix}hidetag *<audio>*_
-  ▢ _${usedPrefix}hidetag *<video>*_
-  ▢ _${usedPrefix}hidetag *<img>*_
-  ▢ _${usedPrefix}warn *<@tag>*_
-  ▢ _${usedPrefix}unwarn *<@tag>*_
-  ▢ _${usedPrefix}listwarn_
-  ▢ _${usedPrefix}fantasmas_
-  ▢ _${usedPrefix}destraba_
-  ▢ _${usedPrefix}setpp *<img>*_
-  ▢ _admins *<txt>*_ (sin prefijo)
-__________________________________
+
  _*انشاء لوغو LOGO*_
   ▢ _${usedPrefix}logos *<efecto> <txt>*_
   ▢ _${usedPrefix}logochristmas *<txt>*_

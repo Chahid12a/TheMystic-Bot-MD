@@ -231,7 +231,7 @@ __________________________________
   __________________________________
  *حول البوت*
   ▢ _${usedPrefix}about_
-  _*الإبلاغ عن أمرا لا يعمل أو ملاحظة في البوت*_
+  _الإبلاغ عن أمرا لا يعمل أو ملاحظة في البوت_
   ▢ _${usedPrefix}report_
   __________________________________
  `.trim();
@@ -245,10 +245,10 @@ __________________________________
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
+    conn.reply(m.chat, '*[ ℹ️ ] تحتوي هذه القائمة على خطأ داخلي، ولهذا السبب لم يكن من الممكن إرسالها.*', m);
   }
 };
-handler.command = /^(menu|m|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.command = /^(menu|m|chahid|memú|help|info|comandos|allmenu|.|commands|cmd)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;

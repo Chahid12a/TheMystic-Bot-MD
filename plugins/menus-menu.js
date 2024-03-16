@@ -103,7 +103,6 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   ▢ _${usedPrefix}wikipedia *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
-  ▢ _${usedPrefix}githubsearch *<txt>*_
 __________________________________
   *حالتك*
   ▢ _${usedPrefix}nassi7a_

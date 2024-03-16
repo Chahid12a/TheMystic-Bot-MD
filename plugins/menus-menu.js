@@ -217,7 +217,6 @@ __________________________________
   ▢ _${usedPrefix}ttp5 *<txt>*_
   ▢ _${usedPrefix}pat *<@tag>*_
   ▢ _${usedPrefix}slap *<@tag>*_
-  ▢ _${usedPrefix}dado_
   ▢ _${usedPrefix}stickermarker *<efecto> <img>*_
   ▢ _${usedPrefix}stickerfilter *<efecto> <img>*_
 __________________________________

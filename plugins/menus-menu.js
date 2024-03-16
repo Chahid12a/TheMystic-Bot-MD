@@ -142,17 +142,11 @@ __________________________________
   ▢ _${usedPrefix}setpp *<img>*_
   ▢ _admins *<txt>*_ (sin prefijo)
 __________________________________
- _*< EFECTOS & LOGOS />*_
+ _*انشاء لوغو LOGO*_
   ▢ _${usedPrefix}logos *<efecto> <txt>*_
   ▢ _${usedPrefix}logochristmas *<txt>*_
   ▢ _${usedPrefix}logocorazon *<txt>*_
   ▢ _${usedPrefix}ytcomment *<txt>*_
-  ▢ _${usedPrefix}hornycard *<@tag>*_
-  ▢ _${usedPrefix}simpcard *<@tag>*_
-  ▢ _${usedPrefix}lolice *<@tag>*_
-  ▢ _${usedPrefix}itssostupid_
-  ▢ _${usedPrefix}pixelar_
-  ▢ _${usedPrefix}blur_
 __________________________________
  *الصور*
   ▢ _${usedPrefix}cristianoronaldo_

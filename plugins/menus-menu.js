@@ -250,7 +250,7 @@ __________________________________
     conn.reply(m.chat, '*[ ℹ️ ] تحتوي هذه القائمة على خطأ داخلي، ولهذا السبب لم يكن من الممكن إرسالها.*', m);
   }
 };
-handler.command = /^(menu|m|chahid|memú|help|info|comandos|allmenu|.|commands|cmd)$/i;
+handler.command = /^(menu|m|chahid|memú|help|info|comandos|allmenu|commands|cmd)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;

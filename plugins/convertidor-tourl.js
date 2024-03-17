@@ -1,15 +1,20 @@
-import uploadFile from '../lib/uploadFile.js';
-import uploadImage from '../lib/uploadImage.js';
-const handler = async (m) => {
-  const q = m.quoted ? m.quoted : m;
-  const mime = (q.msg || q).mimetype || '';
-  if (!mime) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝚅𝙸𝙳𝙴𝙾 𝙴𝙻 𝙲𝚄𝙰𝙻 𝚂𝙴𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾 𝙰 𝙴𝙽𝙻𝙰𝙲𝙴*';
-  const media = await q.download();
-  const isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime);
-  const link = await (isTele ? uploadImage : uploadFile)(media);
-  m.reply(`*𝙴𝙽𝙻𝙰𝙲𝙴 𝙰 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾:* ${link}`);
-};
-handler.help = ['tourl <reply image>'];
-handler.tags = ['sticker'];
-handler.command = /^(upload|tourl)$/i;
+import uploadFile from '../lib/uploadFile.js'
+import uploadImage from '../lib/uploadImage.js'
+
+let handler = async (m) => {
+  let q = m.quoted ? m.quoted : m
+  let mime = (q.msg || q).mimetype || ''
+  if (!mime) throw 'هذا الامر خاص برفع الصور لموقع\nhttps://telegra.ph/\nالان قم بالاشارة للصورة التي تريد رفعها للموقع وسوف تحصل على رابطها \n اشر اليها ثم اكتب\n*.trv*'
+  let media = await q.download()
+  let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
+  let link = await (isTele ? uploadImage : uploadFile)(media)
+  m.reply(`▢ ${media.length} Byte(s) 
+
+▢ ${isTele ? '' : '(Unknown)'} 
+▢ *هذا هو رابط الفيديو :* ${link}\n\n\nتابع صاحب البوت في حسابه\ninstagram.com/chahid_mohammed1
+  `)
+}
+handler.help = ['trv']
+handler.tags = ['uploader']
+handler.command = ['trv']
 export default handler;

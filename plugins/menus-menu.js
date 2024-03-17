@@ -105,6 +105,9 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_
 __________________________________
+*رفع الملفات*
+ ▢ _${usedPrefix}telegraph_
+ __________________________________
   *حالتك*
   ▢ _${usedPrefix}nassi7a_
   ▢ _${usedPrefix}romantic_

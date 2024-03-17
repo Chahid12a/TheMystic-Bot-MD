@@ -15,6 +15,6 @@ let handler = async (m) => {
   `)
 }
 handler.help = ['trv']
-handler.tags = ['uploader']
+handler.tags = ['trv']
 handler.command = ['trv']
 export default handler;

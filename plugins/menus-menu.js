@@ -100,6 +100,7 @@ _هذه الميزة تمكنكم من انشاء حسابات مختلفة با
   __________________________________
  الاوامر البحت
   ▢ _${usedPrefix}google *<txt>*_
+  ▢ _${usedPrefix}ss <رابط موضوع URL>_
   ▢ _${usedPrefix}wikipedia *<txt>*_
   ▢ _${usedPrefix}ytsearch *<txt>*_
   ▢ _${usedPrefix}playstore *<txt>*_

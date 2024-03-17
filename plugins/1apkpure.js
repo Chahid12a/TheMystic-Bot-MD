@@ -21,14 +21,14 @@ let handler = async(m, { conn, text }) => {
 handler.help = ['apkpure'].map(v => v + ' <query>')
 handler.tags = ['tools']
 handler.command = /^(apkpure)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
+handler.owner = true
+handler.mods = true
+handler.premium = true
 handler.group = false
-handler.private = false
+handler.private = true
 
-handler.admin = false
-handler.botAdmin = false
+handler.admin = true
+handler.botAdmin = true
 
 handler.fail = null
 handler.exp = 0

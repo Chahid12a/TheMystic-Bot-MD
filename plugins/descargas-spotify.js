@@ -5,7 +5,7 @@ import fs from 'fs';
 import axios from 'axios';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
- if (!text) throw `_*< DESCARGAS - SPOTIFY />*_\n\n*[ ℹ️ ] Hace falta el título de la canción de Spotify.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} Good Feeling - Flo Rida_`;
+ if (!text) throw `_*< DESCARGAS - SPOTIFY />*_\n\n*[ ℹ️ ] أنت بحاجة إلى عنوان الأغنية Spotify.*\n\n*[ 💡 ] متال:* _${usedPrefix + command} Good Feeling - Flo Rida_`;
   try {
     const res = await fetch(global.API('CFROSAPI', '/api/spotifysearch?text=' + text))
     const data = await res.json()

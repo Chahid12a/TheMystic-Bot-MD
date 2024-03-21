@@ -5,7 +5,7 @@ import fs from 'fs';
 import axios from 'axios';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
- if (!text) throw `_*< DESCARGAS - SPOTIFY />*_\n\n*[ ℹ️ ] أنت بحاجة إلى عنوان الأغنية Spotify.*\n\n*[ 💡 ] متال:* _${usedPrefix + command} Good Feeling - Flo Rida_`;
+ if (!text) throw `_*تحميل من سبوتيفاي*_\n\n*[ ℹ️ ] أنت بحاجة إلى عنوان الأغنية Spotify.*\n\n*[ 💡 ] متال:* _${usedPrefix + command} Good Feeling - Flo Rida_`;
   try {
     const res = await fetch(global.API('CFROSAPI', '/api/spotifysearch?text=' + text))
     const data = await res.json()
@@ -16,7 +16,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     const info = await infos.json()
     const spty = info.spty.resultado
     const img = await (await fetch(`${spty.thumbnail}`)).buffer()  
-    let spotifyi = ` _*< DESCARGAS - SPOTIFY />*_\n\n`
+    let spotifyi = ` _*تحميل من سبوتاب*_\n\n`
         spotifyi += ` ▢ *Título:* ${spty.title}\n\n`
         spotifyi += ` ▢ *Artista:* ${spty.artist}\n\n`
         spotifyi += ` ▢ *Álbum:* ${spty.album}\n\n`                 

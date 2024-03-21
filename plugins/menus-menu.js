@@ -48,6 +48,14 @@ __________________________________
  ▢ _${usedPrefix}ytmp3 *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytshort *<رابط_الفيديو>*_
  ▢ _${usedPrefix}ytmp3doc *<رابط_الفيديو>*_
+ ▢ _${usedPrefix}play *<txt>*_
+ ▢ _${usedPrefix}play2 *<txt>*_
+ ▢ _${usedPrefix}play.1 *<txt>*_
+ ▢ _${usedPrefix}play.2 *<txt>*_
+ ▢ _${usedPrefix}playdoc *<txt>*_
+ ▢ _${usedPrefix}playdoc2 *<txt>*_
+ ▢ _${usedPrefix}playlist *<txt>*_
+ ▢ _${usedPrefix}videodoc *<url>*_
  __________________________________
  تحميل من فيسبوك:
  ▢ _${usedPrefix}facebook *<رابط_الفيديو>*_
@@ -75,14 +83,6 @@ __________________________________
  ▢ _${usedPrefix}modapk *<txt>*_
  __________________________________
  باقي مواقع اخري..
- ▢ _${usedPrefix}play *<txt>*_
- ▢ _${usedPrefix}play2 *<txt>*_
- ▢ _${usedPrefix}play.1 *<txt>*_
- ▢ _${usedPrefix}play.2 *<txt>*_
- ▢ _${usedPrefix}playdoc *<txt>*_
- ▢ _${usedPrefix}playdoc2 *<txt>*_
- ▢ _${usedPrefix}playlist *<txt>*_
- ▢ _${usedPrefix}videodoc *<url>*_
  ▢ _${usedPrefix}pinterest *<txt>*_
  ▢ _${usedPrefix}gitclone *<url>*_
  ▢ _${usedPrefix}twitter *<url>*_
@@ -142,6 +142,7 @@ __________________________________
   ▢ _${usedPrefix}randomprofile_
 __________________________________
  *الادوات*
+  ▢ _${usedPrefix}getplugin_
   ▢ _${usedPrefix}reminihd_
   ▢ _${usedPrefix}inspect *<wagc_url>*_
   ▢ _${usedPrefix}delchatgpt

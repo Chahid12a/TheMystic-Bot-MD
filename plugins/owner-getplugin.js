@@ -5,7 +5,7 @@ const exec = promisify(_exec).bind(cp);
 const handler = async (m, {conn, isROwner, usedPrefix, command, text}) => {
   const ar = Object.keys(plugins);
   const ar1 = ar.map((v) => v.replace('.js', ''));
-  if (!text) throw `*[❗] إدخال اسم إضافة (ملف) موجود*\n\n*—◉ متال*\n*◉ ${usedPrefix + command}* info-infobot\n\n*—◉ قائمة الإضافات (الملفات) الموجودة:*\n*◉* ${ar1.map((v) => ' ' + v).join`\n*◉*`}`;
+  if (!text) throw `*[❗] إدخال اسم إضافة (ملف) موجود*\n\n*—◉ متال*\n*◉ ${usedPrefix + command}* Tr\n\n*—◉ قائمة الإضافات (الملفات) الموجودة:*\n*◉* ${ar1.map((v) => ' ' + v).join`\n*◉*`}`;
   if (!ar1.includes(text)) return m.reply(`*[❗] لم يتم العثور على أي إضافة (ملف) بالاسم المحدد "${text}", أدخل شيئًا موجودًا*\n\n*==================================*\n\n*—◉ قائمة الإضافات (الملفات) الموجودة:*\n*◉* ${ar1.map((v) => ' ' + v).join`\n*◉*`}`);
   let o;
   try {

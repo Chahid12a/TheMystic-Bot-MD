@@ -30,13 +30,13 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
         try {
           const ress = await fg.fbdl(args[0]);
           const urll = await ress.data[0].url;
-          await conn.sendFile(m.chat, urll, 'error.mp4', '_*< التحميلات - FACEBOOK />*_\n\n', m);
+          await conn.sendFile(m.chat, urll, 'error.mp4', '_*التحميل من فيسبوك*_\n\n', m);
         } catch (err3) {
           try {
             const res = await fbDownloader(args[0]);
             for (const result of res.download) {
               const ur = result.url;
-              await conn.sendFile(m.chat, ur, 'error.mp4', '_*< التحميلات - FACEBOOK />*_\n\n', m);
+              await conn.sendFile(m.chat, ur, 'error.mp4', '_*التحميل من فيسبوك*_\n\n', m);
             }
           } catch (err4) {
             try {

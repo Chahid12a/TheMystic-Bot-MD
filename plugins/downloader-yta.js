@@ -24,10 +24,10 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
             throw `*[❗] لم يتم العثور على رابط لهذا الرقم، الرجاء إدخال رقم بين 1 و el ${matchingItem.urls.length}*`;
           }
         } else {
-          throw `*[❗] لتتمكن من استخدام الأمر بهذه الطريقة (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+          throw `*[❗] لتتمكن من استخدام الأمر بهذه الطريقة (${usedPrefix + command} <numero>), يرجى البحث عن مقاطع الفيديو مع الأمر ${usedPrefix}playlist <texto>*`;
         }
       } else {
-        throw `*[❗] لتتمكن من استخدام الأمر بهذه الطريقة (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+        throw `*[❗] لتتمكن من استخدام الأمر بهذه الطريقة (${usedPrefix + command} <numero>), يرجى البحث عن مقاطع الفيديو مع الأمر ${usedPrefix}playlist <texto>*`;
       }
     }
   }
@@ -44,7 +44,7 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
    if (fileSizeInMB > 50) {
     await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] تم تنزيل الصوت وإرساله بنجاح.*\n\n*—◉ Se envío en formato de documento debido a que el audio pesa ${roundedFileSizeInMB} MB y supera el limite establecido por WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `*[ ✔ ] تم تنزيل الصوت وإرساله بنجاح.*\n\n*—◉ تم إرساله بصيغة مستند لأن الصوت ثقيل ${roundedFileSizeInMB} MB ويتجاوز الحد الذي حدده WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
     enviando = false
    } else {
     await conn.sendMessage(m.chat, {audio: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});

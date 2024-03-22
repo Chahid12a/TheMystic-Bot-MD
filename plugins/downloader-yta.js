@@ -31,7 +31,7 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
       }
     }
   }
-  const { key } = await conn.sendMessage(m.chat, {text: `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*\n\n*◉ Sɪ Sᴜ ᴀᴜᴅɪᴏ ɴᴏ ᴇs ᴇɴᴠɪᴀᴅᴏ, ᴘʀᴜᴇʙᴇ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`}, {quoted: m});
+  const { key } = await conn.sendMessage(m.chat, {text: `*_جاي تنزيل المقطع_*\n\n* #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`}, {quoted: m});
   try {
     const formats = await bestFormat(youtubeLink, 'audio');
     const dl_url = await getUrlDl(formats.url);
@@ -43,11 +43,11 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
     const fileSizeInMB = fileSizeInKB / 1024;
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
    if (fileSizeInMB > 50) {
-    await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
+    await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ وزن الصوت:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
     await conn.sendMessage(m.chat, {text: `*[ ✔ ] تم تنزيل الصوت وإرساله بنجاح.*\n\n*—◉ تم إرساله بصيغة مستند لأن الصوت ثقيل ${roundedFileSizeInMB} MB ويتجاوز الحد الذي حدده WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
     enviando = false
    } else {
-    await conn.sendMessage(m.chat, {audio: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
+    await conn.sendMessage(m.chat, {audio: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ وزن الصوت:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
     await conn.sendMessage(m.chat, {text: `*[ ✔ ] تم تنزيل الصوت وإرساله بنجاح.*`, edit: key}, {quoted: m});
     enviando = false   
    }    
@@ -61,7 +61,7 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
     const ttl = await yt.title;
     const size = await yt.audio[q].fileSizeH;
     await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, {mimetype: 'audio/mpeg'});
-    await conn.sendMessage(m.chat, {text: '*[ ✔ ] Audio descargado exitosamente.*', edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: '*[ ✔ ] تم تنزيل الصوت بنجاح.*', edit: key}, {quoted: m});
   } catch {
     try {
       const lolhuman = await fetch(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkeysapi}&url=${youtubeLink}`);

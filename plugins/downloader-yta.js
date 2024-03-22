@@ -21,13 +21,13 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
           if (index < matchingItem.urls.length) {
             youtubeLink = matchingItem.urls[index];
           } else {
-            throw `*[❗] No se encontro un enlace para ese numero, por favor ingrese un numero entre el 1 y el ${matchingItem.urls.length}*`;
+            throw `*[❗] لم يتم العثور على رابط لهذا الرقم، الرجاء إدخال رقم بين 1 و el ${matchingItem.urls.length}*`;
           }
         } else {
-          throw `*[❗] Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+          throw `*[❗] لتتمكن من استخدام الأمر بهذه الطريقة (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
         }
       } else {
-        throw `*[❗] Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+        throw `*[❗] لتتمكن من استخدام الأمر بهذه الطريقة (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
       }
     }
   }
@@ -44,11 +44,11 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
     const roundedFileSizeInMB = fileSizeInMB.toFixed(2);
    if (fileSizeInMB > 50) {
     await conn.sendMessage(m.chat, {document: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Audio descargado y enviado exitosamente.*\n\n*—◉ Se envío en formato de documento debido a que el audio pesa ${roundedFileSizeInMB} MB y supera el limite establecido por WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `*[ ✔ ] تم تنزيل الصوت وإرساله بنجاح.*\n\n*—◉ Se envío en formato de documento debido a que el audio pesa ${roundedFileSizeInMB} MB y supera el limite establecido por WhatsApp.*\n*◉ Titulo:* ${ttl_1}`, edit: key}, {quoted: m});
     enviando = false
    } else {
     await conn.sendMessage(m.chat, {audio: buff, caption: `*▢ Titulo:* ${ttl_1}\n*▢ Peso Del Audio:* ${roundedFileSizeInMB} MB`, fileName: ttl_1 + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-    await conn.sendMessage(m.chat, {text: `*[ ✔ ] Audio descargado y enviado exitosamente.*`, edit: key}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: `*[ ✔ ] تم تنزيل الصوت وإرساله بنجاح.*`, edit: key}, {quoted: m});
     enviando = false   
    }    
   } catch {
@@ -68,7 +68,7 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
       const lolh = await lolhuman.json();
       const n = lolh.result.title || 'error';
       await conn.sendMessage(m.chat, {audio: {url: lolh.result.link}, fileName: `${n}.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
-      await conn.sendMessage(m.chat, {text: '*[ ✔ ] Audio descargado exitosamente.*', edit: key}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*[ ✔ ] تم تنزيل الصوت بنجاح.*', edit: key}, {quoted: m});
     } catch {
       try {
         const searchh = await yts(youtubeLink);
@@ -76,10 +76,10 @@ const handler = async (m, {text, conn, args, usedPrefix, command}) => {
         const infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId);
         const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'});
         conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
-        await conn.sendMessage(m.chat, {text: '*[ ✔ ] Audio descargado exitosamente.*', edit: key}, {quoted: m});
+        await conn.sendMessage(m.chat, {text: '*[ ✔ ] تم تنزيل الصوت بنجاح.*', edit: key}, {quoted: m});
       } catch {
-        await conn.sendMessage(m.chat, {text: `*[ ❌ ] El audio no pudo ser descargado ni enviado, vuelva a intentarlo.*`, edit: key}, {quoted: m});
-        throw '*[❗] Error, no fue posible descargar el audio.*';
+        await conn.sendMessage(m.chat, {text: `*[ ❌ ] تعذر تنزيل الصوت أو إرساله، يرجى المحاولة مرة أخرى.*`, edit: key}, {quoted: m});
+        throw '*[❗] خطأ، لم يكن من الممكن تحميل الصوت.*';
       }
     }
   }
